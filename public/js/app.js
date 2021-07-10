@@ -16,7 +16,7 @@ weatherForm.addEventListener('submit', (e) => {
             }
             else{
                 messageOne.innerText = 'location: ' + location.toUpperCase();
-                messageTwo.innerHTML = 'Description: ' + data.description + '<br>' + 'Temperature: ' + data.temperature + '<br>' + 'Feels Like Temperature: ' + data.feelsLikeTemperature
+                messageTwo.innerHTML = 'Description: ' + data.description + '<br>' + 'Temperature: ' + data.temperature + '°C' + '<br>' + 'Feels Like Temperature: ' + data.feelsLikeTemperature + '°C' + '<br>' + 'Humidity: ' + data.humidity + '%';
             }
         });
     }); 
